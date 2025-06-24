@@ -46,4 +46,4 @@ def chat_fn(message, history=[]):
     history.append((message, answer))
     return history, history
 
-gr.ChatInterface(chat_fn, title="📄 Chat with a PDF using Mistral 7B").launch()
+gr.ChatInterface(chat_fn, title="📄 Chat with 'Attention is all you need' Research PDF using Mistral 7B").launch()
